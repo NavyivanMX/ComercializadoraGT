@@ -1,0 +1,742 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="ActivarDesactivarCliente">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Usuario" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PWD" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="RfcEmisor" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="Activar" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ActivarDesactivarClienteResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ActivarDesactivarClienteResult" type="tns:RespuestaActivarCliente" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="RespuestaActivarCliente">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Codigo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Mensaje" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="ValidarRFC">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Usuario" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PWD" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="RfcEmisor" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ValidarRFCResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ValidarRFCResult" type="tns:RespuestaActivarCliente" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RegistrarCliente">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Usuario" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PWD" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="RfcEmisor" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RegistrarClienteResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RegistrarClienteResult" type="tns:RespuestaAgregarCliente" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="RespuestaAgregarCliente">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Codigo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Mensaje" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="Timbrar">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Usuario" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PWD" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Archivo" type="s:base64Binary" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TimbrarResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="TimbrarResult" type="tns:RespuestaTimbrado" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="RespuestaTimbrado">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Codigo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Mensaje" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="XML" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PDF" type="s:base64Binary" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="TimbrarPrueba">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Usuario" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PWD" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Archivo" type="s:base64Binary" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TimbrarPruebaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="TimbrarPruebaResult" type="tns:RespuestaTimbrado" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TimbrarSAPPruebas">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Usuario" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PWD" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Archivo" type="s:base64Binary" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TimbrarSAPPruebasResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="TimbrarSAPPruebasResult" type="tns:RespuestaTimbrado" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TimbrarSAP">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Usuario" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PWD" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Archivo" type="s:base64Binary" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TimbrarSAPResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="TimbrarSAPResult" type="tns:RespuestaTimbrado" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CancelarComprobante">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Usuario" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PWD" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="RFCEmisor" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="UUID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CancelarComprobanteResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CancelarComprobanteResult" type="tns:RespuestaCancelacion" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="RespuestaCancelacion">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Codigo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Mensaje" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="XML" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="CancelarComprobantePruebas">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Usuario" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PWD" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="RFCEmisor" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="UUID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CancelarComprobantePruebasResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CancelarComprobantePruebasResult" type="tns:RespuestaCancelacion" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GenerarPem">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Usuario" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PWD" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Emisor" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GenerarPemResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GenerarPemResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SubirArchivo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Usuario" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PWD" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Emisor" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="NombreArchivo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Archivo" type="s:base64Binary" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SubirArchivoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SubirArchivoResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DescargarArchivo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Usuario" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PWD" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="NombreArchivo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DescargarArchivoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DescargarArchivoResult" type="tns:RespuestaDescargarArchivo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="RespuestaDescargarArchivo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Codigo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Mensaje" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Archivo" type="s:base64Binary" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="EstatusComprobante">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Usuario" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PWD" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Emisor" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Receptor" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Uuid" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="Total" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EstatusComprobanteResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="EstatusComprobanteResult" type="tns:RespuestaEstatusComprobante" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="RespuestaEstatusComprobante">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Codigo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Mensaje" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="EsCancelable" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Estado" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="EstatusCancelacion" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="TimbresConsumidosRFecha">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Usuario" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PWD" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Emisor" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="Inicio" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="Fin" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TimbresConsumidosRFechaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="TimbresConsumidosRFechaResult" type="tns:RespuestaConsumo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="RespuestaConsumo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Codigo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Mensaje" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="TimbresConsumidosMesActual">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Usuario" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PWD" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Emisor" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TimbresConsumidosMesActualResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="TimbresConsumidosMesActualResult" type="tns:RespuestaConsumo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="ActivarDesactivarClienteSoapIn">
+    <wsdl:part name="parameters" element="tns:ActivarDesactivarCliente" />
+  </wsdl:message>
+  <wsdl:message name="ActivarDesactivarClienteSoapOut">
+    <wsdl:part name="parameters" element="tns:ActivarDesactivarClienteResponse" />
+  </wsdl:message>
+  <wsdl:message name="ValidarRFCSoapIn">
+    <wsdl:part name="parameters" element="tns:ValidarRFC" />
+  </wsdl:message>
+  <wsdl:message name="ValidarRFCSoapOut">
+    <wsdl:part name="parameters" element="tns:ValidarRFCResponse" />
+  </wsdl:message>
+  <wsdl:message name="RegistrarClienteSoapIn">
+    <wsdl:part name="parameters" element="tns:RegistrarCliente" />
+  </wsdl:message>
+  <wsdl:message name="RegistrarClienteSoapOut">
+    <wsdl:part name="parameters" element="tns:RegistrarClienteResponse" />
+  </wsdl:message>
+  <wsdl:message name="TimbrarSoapIn">
+    <wsdl:part name="parameters" element="tns:Timbrar" />
+  </wsdl:message>
+  <wsdl:message name="TimbrarSoapOut">
+    <wsdl:part name="parameters" element="tns:TimbrarResponse" />
+  </wsdl:message>
+  <wsdl:message name="TimbrarPruebaSoapIn">
+    <wsdl:part name="parameters" element="tns:TimbrarPrueba" />
+  </wsdl:message>
+  <wsdl:message name="TimbrarPruebaSoapOut">
+    <wsdl:part name="parameters" element="tns:TimbrarPruebaResponse" />
+  </wsdl:message>
+  <wsdl:message name="TimbrarSAPPruebasSoapIn">
+    <wsdl:part name="parameters" element="tns:TimbrarSAPPruebas" />
+  </wsdl:message>
+  <wsdl:message name="TimbrarSAPPruebasSoapOut">
+    <wsdl:part name="parameters" element="tns:TimbrarSAPPruebasResponse" />
+  </wsdl:message>
+  <wsdl:message name="TimbrarSAPSoapIn">
+    <wsdl:part name="parameters" element="tns:TimbrarSAP" />
+  </wsdl:message>
+  <wsdl:message name="TimbrarSAPSoapOut">
+    <wsdl:part name="parameters" element="tns:TimbrarSAPResponse" />
+  </wsdl:message>
+  <wsdl:message name="CancelarComprobanteSoapIn">
+    <wsdl:part name="parameters" element="tns:CancelarComprobante" />
+  </wsdl:message>
+  <wsdl:message name="CancelarComprobanteSoapOut">
+    <wsdl:part name="parameters" element="tns:CancelarComprobanteResponse" />
+  </wsdl:message>
+  <wsdl:message name="CancelarComprobantePruebasSoapIn">
+    <wsdl:part name="parameters" element="tns:CancelarComprobantePruebas" />
+  </wsdl:message>
+  <wsdl:message name="CancelarComprobantePruebasSoapOut">
+    <wsdl:part name="parameters" element="tns:CancelarComprobantePruebasResponse" />
+  </wsdl:message>
+  <wsdl:message name="GenerarPemSoapIn">
+    <wsdl:part name="parameters" element="tns:GenerarPem" />
+  </wsdl:message>
+  <wsdl:message name="GenerarPemSoapOut">
+    <wsdl:part name="parameters" element="tns:GenerarPemResponse" />
+  </wsdl:message>
+  <wsdl:message name="SubirArchivoSoapIn">
+    <wsdl:part name="parameters" element="tns:SubirArchivo" />
+  </wsdl:message>
+  <wsdl:message name="SubirArchivoSoapOut">
+    <wsdl:part name="parameters" element="tns:SubirArchivoResponse" />
+  </wsdl:message>
+  <wsdl:message name="DescargarArchivoSoapIn">
+    <wsdl:part name="parameters" element="tns:DescargarArchivo" />
+  </wsdl:message>
+  <wsdl:message name="DescargarArchivoSoapOut">
+    <wsdl:part name="parameters" element="tns:DescargarArchivoResponse" />
+  </wsdl:message>
+  <wsdl:message name="EstatusComprobanteSoapIn">
+    <wsdl:part name="parameters" element="tns:EstatusComprobante" />
+  </wsdl:message>
+  <wsdl:message name="EstatusComprobanteSoapOut">
+    <wsdl:part name="parameters" element="tns:EstatusComprobanteResponse" />
+  </wsdl:message>
+  <wsdl:message name="TimbresConsumidosRFechaSoapIn">
+    <wsdl:part name="parameters" element="tns:TimbresConsumidosRFecha" />
+  </wsdl:message>
+  <wsdl:message name="TimbresConsumidosRFechaSoapOut">
+    <wsdl:part name="parameters" element="tns:TimbresConsumidosRFechaResponse" />
+  </wsdl:message>
+  <wsdl:message name="TimbresConsumidosMesActualSoapIn">
+    <wsdl:part name="parameters" element="tns:TimbresConsumidosMesActual" />
+  </wsdl:message>
+  <wsdl:message name="TimbresConsumidosMesActualSoapOut">
+    <wsdl:part name="parameters" element="tns:TimbresConsumidosMesActualResponse" />
+  </wsdl:message>
+  <wsdl:portType name="TimbrarXMLSoap">
+    <wsdl:operation name="ActivarDesactivarCliente">
+      <wsdl:input message="tns:ActivarDesactivarClienteSoapIn" />
+      <wsdl:output message="tns:ActivarDesactivarClienteSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ValidarRFC">
+      <wsdl:input message="tns:ValidarRFCSoapIn" />
+      <wsdl:output message="tns:ValidarRFCSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RegistrarCliente">
+      <wsdl:input message="tns:RegistrarClienteSoapIn" />
+      <wsdl:output message="tns:RegistrarClienteSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Timbrar">
+      <wsdl:input message="tns:TimbrarSoapIn" />
+      <wsdl:output message="tns:TimbrarSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TimbrarPrueba">
+      <wsdl:input message="tns:TimbrarPruebaSoapIn" />
+      <wsdl:output message="tns:TimbrarPruebaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TimbrarSAPPruebas">
+      <wsdl:input message="tns:TimbrarSAPPruebasSoapIn" />
+      <wsdl:output message="tns:TimbrarSAPPruebasSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TimbrarSAP">
+      <wsdl:input message="tns:TimbrarSAPSoapIn" />
+      <wsdl:output message="tns:TimbrarSAPSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CancelarComprobante">
+      <wsdl:input message="tns:CancelarComprobanteSoapIn" />
+      <wsdl:output message="tns:CancelarComprobanteSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CancelarComprobantePruebas">
+      <wsdl:input message="tns:CancelarComprobantePruebasSoapIn" />
+      <wsdl:output message="tns:CancelarComprobantePruebasSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GenerarPem">
+      <wsdl:input message="tns:GenerarPemSoapIn" />
+      <wsdl:output message="tns:GenerarPemSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SubirArchivo">
+      <wsdl:input message="tns:SubirArchivoSoapIn" />
+      <wsdl:output message="tns:SubirArchivoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DescargarArchivo">
+      <wsdl:input message="tns:DescargarArchivoSoapIn" />
+      <wsdl:output message="tns:DescargarArchivoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="EstatusComprobante">
+      <wsdl:input message="tns:EstatusComprobanteSoapIn" />
+      <wsdl:output message="tns:EstatusComprobanteSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TimbresConsumidosRFecha">
+      <wsdl:input message="tns:TimbresConsumidosRFechaSoapIn" />
+      <wsdl:output message="tns:TimbresConsumidosRFechaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TimbresConsumidosMesActual">
+      <wsdl:input message="tns:TimbresConsumidosMesActualSoapIn" />
+      <wsdl:output message="tns:TimbresConsumidosMesActualSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="TimbrarXMLSoap" type="tns:TimbrarXMLSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ActivarDesactivarCliente">
+      <soap:operation soapAction="http://tempuri.org/ActivarDesactivarCliente" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ValidarRFC">
+      <soap:operation soapAction="http://tempuri.org/ValidarRFC" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RegistrarCliente">
+      <soap:operation soapAction="http://tempuri.org/RegistrarCliente" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Timbrar">
+      <soap:operation soapAction="http://tempuri.org/Timbrar" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TimbrarPrueba">
+      <soap:operation soapAction="http://tempuri.org/TimbrarPrueba" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TimbrarSAPPruebas">
+      <soap:operation soapAction="http://tempuri.org/TimbrarSAPPruebas" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TimbrarSAP">
+      <soap:operation soapAction="http://tempuri.org/TimbrarSAP" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CancelarComprobante">
+      <soap:operation soapAction="http://tempuri.org/CancelarComprobante" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CancelarComprobantePruebas">
+      <soap:operation soapAction="http://tempuri.org/CancelarComprobantePruebas" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GenerarPem">
+      <soap:operation soapAction="http://tempuri.org/GenerarPem" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubirArchivo">
+      <soap:operation soapAction="http://tempuri.org/SubirArchivo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DescargarArchivo">
+      <soap:operation soapAction="http://tempuri.org/DescargarArchivo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EstatusComprobante">
+      <soap:operation soapAction="http://tempuri.org/EstatusComprobante" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TimbresConsumidosRFecha">
+      <soap:operation soapAction="http://tempuri.org/TimbresConsumidosRFecha" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TimbresConsumidosMesActual">
+      <soap:operation soapAction="http://tempuri.org/TimbresConsumidosMesActual" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="TimbrarXMLSoap12" type="tns:TimbrarXMLSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ActivarDesactivarCliente">
+      <soap12:operation soapAction="http://tempuri.org/ActivarDesactivarCliente" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ValidarRFC">
+      <soap12:operation soapAction="http://tempuri.org/ValidarRFC" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RegistrarCliente">
+      <soap12:operation soapAction="http://tempuri.org/RegistrarCliente" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Timbrar">
+      <soap12:operation soapAction="http://tempuri.org/Timbrar" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TimbrarPrueba">
+      <soap12:operation soapAction="http://tempuri.org/TimbrarPrueba" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TimbrarSAPPruebas">
+      <soap12:operation soapAction="http://tempuri.org/TimbrarSAPPruebas" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TimbrarSAP">
+      <soap12:operation soapAction="http://tempuri.org/TimbrarSAP" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CancelarComprobante">
+      <soap12:operation soapAction="http://tempuri.org/CancelarComprobante" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CancelarComprobantePruebas">
+      <soap12:operation soapAction="http://tempuri.org/CancelarComprobantePruebas" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GenerarPem">
+      <soap12:operation soapAction="http://tempuri.org/GenerarPem" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubirArchivo">
+      <soap12:operation soapAction="http://tempuri.org/SubirArchivo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DescargarArchivo">
+      <soap12:operation soapAction="http://tempuri.org/DescargarArchivo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EstatusComprobante">
+      <soap12:operation soapAction="http://tempuri.org/EstatusComprobante" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TimbresConsumidosRFecha">
+      <soap12:operation soapAction="http://tempuri.org/TimbresConsumidosRFecha" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TimbresConsumidosMesActual">
+      <soap12:operation soapAction="http://tempuri.org/TimbresConsumidosMesActual" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="TimbrarXML">
+    <wsdl:port name="TimbrarXMLSoap" binding="tns:TimbrarXMLSoap">
+      <soap:address location="http://navysoluciones.ddns.net/navysolucionestimbrado/timbrarxml.asmx" />
+    </wsdl:port>
+    <wsdl:port name="TimbrarXMLSoap12" binding="tns:TimbrarXMLSoap12">
+      <soap12:address location="http://navysoluciones.ddns.net/navysolucionestimbrado/timbrarxml.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
