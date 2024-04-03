@@ -571,6 +571,12 @@
     <Compile Include="frmInfo.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmInformacionAdicionalPG.Designer.vb">
+      <DependentUpon>frmInformacionAdicionalPG.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmInformacionAdicionalPG.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmKardexClientes.Designer.vb">
       <DependentUpon>frmKardexClientes.vb</DependentUpon>
     </Compile>
@@ -1739,6 +1745,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmInfo.resx">
       <DependentUpon>frmInfo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInformacionAdicionalPG.resx">
+      <DependentUpon>frmInformacionAdicionalPG.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmKardexClientes.resx">
       <DependentUpon>frmKardexClientes.vb</DependentUpon>

@@ -18,7 +18,7 @@ Public Class frmFacturar33
     Dim DERIVADA As Boolean
     Private Sub frmFacturar33_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Me.Icon = frmPrincipal.Icon
-      OPVisualizacionForm(Me)
+        OPVisualizacionForm(Me)
         CADENA = frmPrincipal.CADENACONEXIONFE
         CONZ.ConnectionString = CADENA
         CHECACONZ()
@@ -637,6 +637,22 @@ Public Class frmFacturar33
         SQL.Dispose()
         SQLD.Dispose()
         SQLMN.Dispose()
+
+        If TXTRFC.Text.ToUpper = "XAXX010101000" Or TXTRFC.Text.ToUpper = "XEXX010101000" Then
+            Dim SQLIAPG As New SqlClient.SqlCommand("SPINFORMACIONADICIONALPG", CONZ)
+            SQLIAPG.CommandType = CommandType.StoredProcedure
+            SQLIAPG.CommandTimeout = 600
+            SQLIAPG.Parameters.Add("@RFC", SqlDbType.VarChar).Value = frmPrincipal.EmisorBase
+            SQLIAPG.Parameters.Add("@SER", SqlDbType.VarChar).Value = VSERIE
+            SQLIAPG.Parameters.Add("@FOLIO", SqlDbType.Int).Value = ELFOLIO.ToString
+
+            SQLIAPG.Parameters.Add("@PER", SqlDbType.VarChar).Value = idPeriodo
+            SQLIAPG.Parameters.Add("@MES", SqlDbType.VarChar).Value = idMes
+            SQLIAPG.Parameters.Add("@AÑO", SqlDbType.VarChar).Value = idAño
+
+            SQLIAPG.ExecuteNonQuery()
+            SQLIAPG.Dispose()
+        End If
         If CHKCP.Checked Then
             Dim SQLCCP As New SqlClient.SqlCommand("SPGENERACOMPLEMENTOCARTAPORTE", CONZ)
             SQLCCP.CommandType = CommandType.StoredProcedure
@@ -715,7 +731,7 @@ Public Class frmFacturar33
     Dim ASECAR As String
     Dim POLCAR As String
     Dim MONCAR As Double
-
+    Dim idPeriodo, idMes, idAño As String
     Private Sub BTNGUARDAR_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BTNGUARDAR.Click
         If CBMP.SelectedIndex = 0 Then
             MessageBox.Show("Favor de Seleccionar a un Método de Pago", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Error)
@@ -775,6 +791,18 @@ Public Class frmFacturar33
         xyz = MessageBox.Show("¿Desea Guardar la Información?", "Aviso", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button1)
         If xyz <> 6 Then
             Exit Sub
+        End If
+        If TXTRFC.Text.ToUpper = "XAXX010101000" Or TXTRFC.Text.ToUpper = "XEXX010101000" Then
+            Dim VIAPG As New frmInformacionAdicionalPG
+            VIAPG.ShowDialog()
+            If VIAPG.DialogResult = DialogResult.Yes Then
+                idPeriodo = VIAPG.idPeriodo
+                idMes = VIAPG.idMes
+                idAño = VIAPG.idAño
+            Else
+                OPMsgError("Es requerido la información adicional para público general")
+                Return
+            End If
         End If
         If CHKCP.Checked Then
             Dim VCCP As New frmComplementoCartaPorte
