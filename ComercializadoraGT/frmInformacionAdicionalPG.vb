@@ -18,6 +18,7 @@
         Me.Icon = frmPrincipal.Icon
 
         OPLlenaComboBox(CBIAPER, LIAPER, "SELECT CLAVE,CLAVE +' - '+NOMBRE FROM CSATPERIODICIDAD WHERE ACTIVO=1 ORDER BY CLAVE", frmPrincipal.CadenaConexionFE)
+        CBIAAÑO.Items.Clear()
         Dim añoactual As Integer
         añoactual = DatePart(DateInterval.Year, Now)
         CBIAAÑO.Items.Add((añoactual - 1).ToString)

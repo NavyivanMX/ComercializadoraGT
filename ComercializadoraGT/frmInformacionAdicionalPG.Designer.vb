@@ -137,6 +137,9 @@ Partial Class frmInformacionAdicionalPG
         Me.ClientSize = New System.Drawing.Size(615, 506)
         Me.Controls.Add(Me.BTNACEPTAR)
         Me.Controls.Add(Me.GBIAPG)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.MaximizeBox = False
+        Me.MinimizeBox = False
         Me.Name = "frmInformacionAdicionalPG"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Información Adicional Público en General"

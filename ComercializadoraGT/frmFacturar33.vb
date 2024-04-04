@@ -644,7 +644,7 @@ Public Class frmFacturar33
             SQLIAPG.CommandTimeout = 600
             SQLIAPG.Parameters.Add("@RFC", SqlDbType.VarChar).Value = frmPrincipal.EmisorBase
             SQLIAPG.Parameters.Add("@SER", SqlDbType.VarChar).Value = VSERIE
-            SQLIAPG.Parameters.Add("@FOLIO", SqlDbType.Int).Value = ELFOLIO.ToString
+            SQLIAPG.Parameters.Add("@FOL", SqlDbType.Int).Value = ELFOLIO.ToString
 
             SQLIAPG.Parameters.Add("@PER", SqlDbType.VarChar).Value = idPeriodo
             SQLIAPG.Parameters.Add("@MES", SqlDbType.VarChar).Value = idMes
