@@ -41,7 +41,7 @@ Partial Class frmRelacionNotaFactura
         '
         Me.Button1.BackColor = System.Drawing.Color.Black
         Me.Button1.ForeColor = System.Drawing.Color.Black
-        Me.Button1.Image = Global.ComercializadoraGT.My.Resources.Resources.xeyes1
+        Me.Button1.Image = Global.ComercializadoraGTFernandoSr.My.Resources.Resources.xeyes1
         Me.Button1.Location = New System.Drawing.Point(730, 29)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(80, 80)

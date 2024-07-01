@@ -515,7 +515,7 @@ Partial Class frmPedidosSucursales
         '
         'BTNACT
         '
-        Me.BTNACT.Image = Global.ComercializadoraGT.My.Resources.Resources.ACTUALIZAR
+        Me.BTNACT.Image = Global.ComercializadoraGTFernandoSr.My.Resources.Resources.ACTUALIZAR
         Me.BTNACT.Location = New System.Drawing.Point(902, 237)
         Me.BTNACT.Name = "BTNACT"
         Me.BTNACT.Size = New System.Drawing.Size(75, 74)

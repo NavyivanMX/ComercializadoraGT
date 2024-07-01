@@ -553,7 +553,7 @@ Partial Class frmFacturar33
         'Button1
         '
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Image = Global.ComercializadoraGT.My.Resources.Resources.agregar
+        Me.Button1.Image = Global.ComercializadoraGTFernandoSr.My.Resources.Resources.agregar
         Me.Button1.Location = New System.Drawing.Point(1025, 266)
         Me.Button1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Button1.Name = "Button1"
@@ -563,7 +563,7 @@ Partial Class frmFacturar33
         'BTNCORREO
         '
         Me.BTNCORREO.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BTNCORREO.Image = Global.ComercializadoraGT.My.Resources.Resources.EMAIL
+        Me.BTNCORREO.Image = Global.ComercializadoraGTFernandoSr.My.Resources.Resources.EMAIL
         Me.BTNCORREO.Location = New System.Drawing.Point(1181, 74)
         Me.BTNCORREO.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.BTNCORREO.Name = "BTNCORREO"

@@ -333,7 +333,7 @@ Partial Class frmFacturar
         'BTNCORREO
         '
         Me.BTNCORREO.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BTNCORREO.Image = Global.ComercializadoraGT.My.Resources.Resources.EMAIL
+        Me.BTNCORREO.Image = Global.ComercializadoraGTFernandoSr.My.Resources.Resources.EMAIL
         Me.BTNCORREO.Location = New System.Drawing.Point(854, 22)
         Me.BTNCORREO.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.BTNCORREO.Name = "BTNCORREO"

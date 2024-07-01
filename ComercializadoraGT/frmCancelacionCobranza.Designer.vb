@@ -36,7 +36,7 @@ Partial Class frmCancelacionCobranza
         'Button1
         '
         Me.Button1.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Button1.Image = Global.ComercializadoraGT.My.Resources.Resources.Buscar_reporte
+        Me.Button1.Image = Global.ComercializadoraGTFernandoSr.My.Resources.Resources.Buscar_reporte
         Me.Button1.Location = New System.Drawing.Point(917, 487)
         Me.Button1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button1.Name = "Button1"

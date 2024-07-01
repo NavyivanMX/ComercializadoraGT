@@ -171,7 +171,7 @@ Partial Class frmKardexVenta
         '
         Me.BTNEXCEL.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.BTNEXCEL.ForeColor = System.Drawing.Color.Transparent
-        Me.BTNEXCEL.Image = Global.ComercializadoraGT.My.Resources.Resources.Files_Exel
+        Me.BTNEXCEL.Image = Global.ComercializadoraGTFernandoSr.My.Resources.Resources.Files_Exel
         Me.BTNEXCEL.Location = New System.Drawing.Point(851, 18)
         Me.BTNEXCEL.Name = "BTNEXCEL"
         Me.BTNEXCEL.Size = New System.Drawing.Size(80, 80)
@@ -182,7 +182,7 @@ Partial Class frmKardexVenta
         '
         Me.BTNMOSTRAR.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.BTNMOSTRAR.ForeColor = System.Drawing.Color.Transparent
-        Me.BTNMOSTRAR.Image = Global.ComercializadoraGT.My.Resources.Resources.xeyes1
+        Me.BTNMOSTRAR.Image = Global.ComercializadoraGTFernandoSr.My.Resources.Resources.xeyes1
         Me.BTNMOSTRAR.Location = New System.Drawing.Point(752, 18)
         Me.BTNMOSTRAR.Name = "BTNMOSTRAR"
         Me.BTNMOSTRAR.Size = New System.Drawing.Size(80, 80)

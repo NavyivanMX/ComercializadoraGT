@@ -1,5 +1,5 @@
 ﻿Imports System.Text.RegularExpressions
-Imports ComercializadoraGT.WSNavy
+Imports ComercializadoraGTFernandoSr.WSNavy
 
 Public Class frmClientesFacturasElectronicas
     Dim CONZ As New SqlClient.SqlConnection

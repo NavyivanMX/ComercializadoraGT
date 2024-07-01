@@ -251,7 +251,7 @@ Partial Class frmPrincipal
         '
         'ToolStripStatusLabel2
         '
-        Me.ToolStripStatusLabel2.Image = Global.ComercializadoraGT.My.Resources.Resources.comercializadora_GZ
+        Me.ToolStripStatusLabel2.Image = Global.ComercializadoraGTFernandoSr.My.Resources.Resources.comercializadora_GZ
         Me.ToolStripStatusLabel2.Name = "ToolStripStatusLabel2"
         Me.ToolStripStatusLabel2.Size = New System.Drawing.Size(135, 20)
         Me.ToolStripStatusLabel2.Text = "Versión:  .net 4.0"
@@ -1279,7 +1279,7 @@ Partial Class frmPrincipal
         'PictureBox4
         '
         Me.PictureBox4.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox4.Image = Global.ComercializadoraGT.My.Resources.Resources.folder_yellow
+        Me.PictureBox4.Image = Global.ComercializadoraGTFernandoSr.My.Resources.Resources.folder_yellow
         Me.PictureBox4.Location = New System.Drawing.Point(1229, 405)
         Me.PictureBox4.Margin = New System.Windows.Forms.Padding(4)
         Me.PictureBox4.Name = "PictureBox4"
@@ -1291,7 +1291,7 @@ Partial Class frmPrincipal
         'PBTRAS
         '
         Me.PBTRAS.BackColor = System.Drawing.Color.Transparent
-        Me.PBTRAS.Image = Global.ComercializadoraGT.My.Resources.Resources.traspaso_icono
+        Me.PBTRAS.Image = Global.ComercializadoraGTFernandoSr.My.Resources.Resources.traspaso_icono
         Me.PBTRAS.Location = New System.Drawing.Point(432, 405)
         Me.PBTRAS.Margin = New System.Windows.Forms.Padding(4)
         Me.PBTRAS.Name = "PBTRAS"
@@ -1339,7 +1339,7 @@ Partial Class frmPrincipal
         'PictureBox2
         '
         Me.PictureBox2.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox2.Image = Global.ComercializadoraGT.My.Resources.Resources.folder_red
+        Me.PictureBox2.Image = Global.ComercializadoraGTFernandoSr.My.Resources.Resources.folder_red
         Me.PictureBox2.Location = New System.Drawing.Point(1229, 245)
         Me.PictureBox2.Margin = New System.Windows.Forms.Padding(4)
         Me.PictureBox2.Name = "PictureBox2"
@@ -1351,7 +1351,7 @@ Partial Class frmPrincipal
         'PictureBox1
         '
         Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox1.Image = Global.ComercializadoraGT.My.Resources.Resources.folder_blue
+        Me.PictureBox1.Image = Global.ComercializadoraGTFernandoSr.My.Resources.Resources.folder_blue
         Me.PictureBox1.Location = New System.Drawing.Point(1229, 62)
         Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4)
         Me.PictureBox1.Name = "PictureBox1"
@@ -1422,7 +1422,7 @@ Partial Class frmPrincipal
         'PBC
         '
         Me.PBC.BackColor = System.Drawing.Color.Transparent
-        Me.PBC.Image = Global.ComercializadoraGT.My.Resources.Resources.iconfinder_shopify_4961990__1_
+        Me.PBC.Image = Global.ComercializadoraGTFernandoSr.My.Resources.Resources.iconfinder_shopify_4961990__1_
         Me.PBC.Location = New System.Drawing.Point(248, 62)
         Me.PBC.Margin = New System.Windows.Forms.Padding(4)
         Me.PBC.Name = "PBC"
@@ -1445,7 +1445,7 @@ Partial Class frmPrincipal
         '
         'PBCNC
         '
-        Me.PBCNC.Image = Global.ComercializadoraGT.My.Resources.Resources.comercializadora_GZ
+        Me.PBCNC.Image = Global.ComercializadoraGTFernandoSr.My.Resources.Resources.comercializadora_GZ
         Me.PBCNC.Location = New System.Drawing.Point(635, 287)
         Me.PBCNC.Margin = New System.Windows.Forms.Padding(4)
         Me.PBCNC.Name = "PBCNC"
@@ -1470,7 +1470,7 @@ Partial Class frmPrincipal
         'PictureBox6
         '
         Me.PictureBox6.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox6.Image = Global.ComercializadoraGT.My.Resources.Resources._7341129_e_commerce_online_shopping_ui_receipt_icon
+        Me.PictureBox6.Image = Global.ComercializadoraGTFernandoSr.My.Resources.Resources._7341129_e_commerce_online_shopping_ui_receipt_icon
         Me.PictureBox6.Location = New System.Drawing.Point(50, 557)
         Me.PictureBox6.Margin = New System.Windows.Forms.Padding(4)
         Me.PictureBox6.Name = "PictureBox6"
@@ -1482,7 +1482,7 @@ Partial Class frmPrincipal
         'PictureBox7
         '
         Me.PictureBox7.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox7.Image = Global.ComercializadoraGT.My.Resources.Resources.PVAImprimir32
+        Me.PictureBox7.Image = Global.ComercializadoraGTFernandoSr.My.Resources.Resources.PVAImprimir32
         Me.PictureBox7.Location = New System.Drawing.Point(250, 557)
         Me.PictureBox7.Margin = New System.Windows.Forms.Padding(4)
         Me.PictureBox7.Name = "PictureBox7"
@@ -1509,7 +1509,7 @@ Partial Class frmPrincipal
         'PictureBox8
         '
         Me.PictureBox8.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox8.Image = Global.ComercializadoraGT.My.Resources.Resources.PVAConfigurar32
+        Me.PictureBox8.Image = Global.ComercializadoraGTFernandoSr.My.Resources.Resources.PVAConfigurar32
         Me.PictureBox8.Location = New System.Drawing.Point(1229, 557)
         Me.PictureBox8.Margin = New System.Windows.Forms.Padding(4)
         Me.PictureBox8.Name = "PictureBox8"
@@ -1536,7 +1536,7 @@ Partial Class frmPrincipal
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackgroundImage = Global.ComercializadoraGT.My.Resources.Resources.FondoForms
+        Me.BackgroundImage = Global.ComercializadoraGTFernandoSr.My.Resources.Resources.FondoForms
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(1453, 733)
         Me.Controls.Add(Me.Label18)

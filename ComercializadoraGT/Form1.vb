@@ -55,7 +55,7 @@ Public Class frmPrincipal
         FacturaLibre = True
         Resguardo = False
         VentaSinResguardo = 0
-        EmisorBase = "GATF9701109J2"
+        EmisorBase = "GARF740304SN8"
         Regimen = "Persona Física con Actividades Empresariales y Profesionales"
         'IP = "201.120.24.238"
         'IP = "187.141.151.178"
@@ -66,7 +66,7 @@ Public Class frmPrincipal
         '    IP = "192.168.2.75"
         '    IPFE = "192.168.2.75"
         'End If
-        Sistema = "Comercializadora GT"
+        Sistema = "Comercializadora GT Fernando Sr"
         'PBCNC.Image = ComercializadoraGT.My.Resources.Resources.price_market_buda
         IVA = 0.16
         SB.Items(0).Text = Ciudad + " Hoy es " + FormatDateTime(Now, DateFormat.LongDate) + " "
@@ -718,7 +718,7 @@ Public Class frmPrincipal
     End Function
     Private Sub ADMINISTRADOR(ByVal V As Boolean)
         Serie = LASERIE()
-        Me.Text = "Comercializadora GT.- Sistema Punto de Venta: " + NombreComun
+        Me.Text = "Comercializadora GT Fernando SR.- Sistema Punto de Venta: " + NombreComun
         SB.Items(0).Text = Me.Ciudad + " Hoy es " + FormatDateTime(Now, DateFormat.LongDate) + " "
         'PBC.Enabled = V
         ''PBF.Enabled = V

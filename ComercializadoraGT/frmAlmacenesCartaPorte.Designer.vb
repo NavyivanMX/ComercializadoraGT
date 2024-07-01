@@ -407,7 +407,7 @@ Partial Class frmAlmacenesCartaPorte
         Me.BTNINFO.BackColor = System.Drawing.SystemColors.Control
         Me.BTNINFO.Font = New System.Drawing.Font("Microsoft Sans Serif", 1.5!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BTNINFO.ForeColor = System.Drawing.Color.Transparent
-        Me.BTNINFO.Image = Global.ComercializadoraGT.My.Resources.Resources.btninformacion32
+        Me.BTNINFO.Image = Global.ComercializadoraGTFernandoSr.My.Resources.Resources.btninformacion32
         Me.BTNINFO.Location = New System.Drawing.Point(13, 502)
         Me.BTNINFO.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.BTNINFO.Name = "BTNINFO"

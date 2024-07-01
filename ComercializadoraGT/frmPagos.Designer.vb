@@ -392,7 +392,7 @@ Partial Class frmPagos
         Me.Button1.BackColor = System.Drawing.SystemColors.Control
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.Color.White
-        Me.Button1.Image = Global.ComercializadoraGT.My.Resources.Resources.editdelete
+        Me.Button1.Image = Global.ComercializadoraGTFernandoSr.My.Resources.Resources.editdelete
         Me.Button1.Location = New System.Drawing.Point(479, 404)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(162, 144)

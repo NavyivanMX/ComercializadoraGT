@@ -680,7 +680,7 @@ Partial Class frmNotaDeVenta
         Me.Button8.BackColor = System.Drawing.Color.White
         Me.Button8.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button8.ForeColor = System.Drawing.Color.Black
-        Me.Button8.Image = Global.ComercializadoraGT.My.Resources.Resources.PVAConfigurar32
+        Me.Button8.Image = Global.ComercializadoraGTFernandoSr.My.Resources.Resources.PVAConfigurar32
         Me.Button8.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.Button8.Location = New System.Drawing.Point(12, 508)
         Me.Button8.Margin = New System.Windows.Forms.Padding(4)
@@ -738,7 +738,7 @@ Partial Class frmNotaDeVenta
         Me.Button5.BackColor = System.Drawing.Color.White
         Me.Button5.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button5.ForeColor = System.Drawing.Color.Black
-        Me.Button5.Image = Global.ComercializadoraGT.My.Resources.Resources.PVAComprar32
+        Me.Button5.Image = Global.ComercializadoraGTFernandoSr.My.Resources.Resources.PVAComprar32
         Me.Button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.Button5.Location = New System.Drawing.Point(16, 112)
         Me.Button5.Margin = New System.Windows.Forms.Padding(4)
@@ -753,7 +753,7 @@ Partial Class frmNotaDeVenta
         Me.Button4.BackColor = System.Drawing.Color.White
         Me.Button4.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button4.ForeColor = System.Drawing.Color.Black
-        Me.Button4.Image = Global.ComercializadoraGT.My.Resources.Resources.PVALogin32
+        Me.Button4.Image = Global.ComercializadoraGTFernandoSr.My.Resources.Resources.PVALogin32
         Me.Button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.Button4.Location = New System.Drawing.Point(16, 12)
         Me.Button4.Margin = New System.Windows.Forms.Padding(4)
@@ -768,7 +768,7 @@ Partial Class frmNotaDeVenta
         Me.BTNQUITAR.BackColor = System.Drawing.Color.White
         Me.BTNQUITAR.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BTNQUITAR.ForeColor = System.Drawing.Color.Black
-        Me.BTNQUITAR.Image = Global.ComercializadoraGT.My.Resources.Resources.PVAImprimir32
+        Me.BTNQUITAR.Image = Global.ComercializadoraGTFernandoSr.My.Resources.Resources.PVAImprimir32
         Me.BTNQUITAR.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.BTNQUITAR.Location = New System.Drawing.Point(16, 309)
         Me.BTNQUITAR.Margin = New System.Windows.Forms.Padding(4)
@@ -783,7 +783,7 @@ Partial Class frmNotaDeVenta
         Me.Button3.BackColor = System.Drawing.Color.White
         Me.Button3.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button3.ForeColor = System.Drawing.Color.Black
-        Me.Button3.Image = Global.ComercializadoraGT.My.Resources.Resources.PVACobrar
+        Me.Button3.Image = Global.ComercializadoraGTFernandoSr.My.Resources.Resources.PVACobrar
         Me.Button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.Button3.Location = New System.Drawing.Point(16, 210)
         Me.Button3.Margin = New System.Windows.Forms.Padding(4)
@@ -844,7 +844,7 @@ Partial Class frmNotaDeVenta
         Me.BTNCANCELAR.BackColor = System.Drawing.Color.White
         Me.BTNCANCELAR.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BTNCANCELAR.ForeColor = System.Drawing.Color.Black
-        Me.BTNCANCELAR.Image = Global.ComercializadoraGT.My.Resources.Resources.PVACancelar32
+        Me.BTNCANCELAR.Image = Global.ComercializadoraGTFernandoSr.My.Resources.Resources.PVACancelar32
         Me.BTNCANCELAR.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.BTNCANCELAR.Location = New System.Drawing.Point(16, 160)
         Me.BTNCANCELAR.Margin = New System.Windows.Forms.Padding(4)
@@ -859,7 +859,7 @@ Partial Class frmNotaDeVenta
         Me.BTNVTA.BackColor = System.Drawing.Color.White
         Me.BTNVTA.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BTNVTA.ForeColor = System.Drawing.Color.Black
-        Me.BTNVTA.Image = Global.ComercializadoraGT.My.Resources.Resources.PVANuevo32
+        Me.BTNVTA.Image = Global.ComercializadoraGTFernandoSr.My.Resources.Resources.PVANuevo32
         Me.BTNVTA.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.BTNVTA.Location = New System.Drawing.Point(14, 62)
         Me.BTNVTA.Margin = New System.Windows.Forms.Padding(4)
@@ -890,7 +890,7 @@ Partial Class frmNotaDeVenta
         Me.BTNBUS.BackColor = System.Drawing.Color.White
         Me.BTNBUS.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BTNBUS.ForeColor = System.Drawing.Color.Black
-        Me.BTNBUS.Image = Global.ComercializadoraGT.My.Resources.Resources.PVAVer32
+        Me.BTNBUS.Image = Global.ComercializadoraGTFernandoSr.My.Resources.Resources.PVAVer32
         Me.BTNBUS.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.BTNBUS.Location = New System.Drawing.Point(14, 356)
         Me.BTNBUS.Margin = New System.Windows.Forms.Padding(4)

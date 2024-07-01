@@ -51,7 +51,7 @@ Partial Class frmSeleccionarImpresora
         'Button1
         '
         Me.Button1.BackColor = System.Drawing.Color.White
-        Me.Button1.Image = Global.ComercializadoraGT.My.Resources.Resources.button_cancel
+        Me.Button1.Image = Global.ComercializadoraGTFernandoSr.My.Resources.Resources.button_cancel
         Me.Button1.Location = New System.Drawing.Point(670, 370)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(123, 112)

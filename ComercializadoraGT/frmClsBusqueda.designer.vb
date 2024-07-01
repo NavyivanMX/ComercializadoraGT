@@ -96,7 +96,7 @@ Partial Class frmClsBusqueda
         'BTNACEPTAR
         '
         Me.BTNACEPTAR.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-        Me.BTNACEPTAR.Image = Global.ComercializadoraGT.My.Resources.Resources.button_ok
+        Me.BTNACEPTAR.Image = Global.ComercializadoraGTFernandoSr.My.Resources.Resources.button_ok
         Me.BTNACEPTAR.Location = New System.Drawing.Point(521, 544)
         Me.BTNACEPTAR.Margin = New System.Windows.Forms.Padding(4)
         Me.BTNACEPTAR.Name = "BTNACEPTAR"
@@ -118,7 +118,7 @@ Partial Class frmClsBusqueda
         'Button1
         '
         Me.Button1.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Button1.Image = Global.ComercializadoraGT.My.Resources.Resources.Files_Exel
+        Me.Button1.Image = Global.ComercializadoraGTFernandoSr.My.Resources.Resources.Files_Exel
         Me.Button1.Location = New System.Drawing.Point(1147, 602)
         Me.Button1.Margin = New System.Windows.Forms.Padding(5)
         Me.Button1.Name = "Button1"

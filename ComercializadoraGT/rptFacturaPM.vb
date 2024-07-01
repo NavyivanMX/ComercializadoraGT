@@ -45,7 +45,7 @@ Public Class rptFacturaPM
     
     Public Overrides Property FullResourceName() As String
         Get
-            Return "PriceMarket.rptFacturaPM.rpt"
+            Return "ComercializadoraGTFernandoSr.rptFacturaPM.rpt"
         End Get
         Set
             'Do nothing

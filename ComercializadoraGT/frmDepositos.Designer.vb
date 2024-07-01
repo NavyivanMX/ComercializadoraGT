@@ -298,7 +298,7 @@ Partial Class frmDepositos
         Me.BTNCONF.BackColor = System.Drawing.SystemColors.Control
         Me.BTNCONF.Font = New System.Drawing.Font("Microsoft Sans Serif", 1.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BTNCONF.ForeColor = System.Drawing.Color.Transparent
-        Me.BTNCONF.Image = Global.ComercializadoraGT.My.Resources.Resources.button_ok
+        Me.BTNCONF.Image = Global.ComercializadoraGTFernandoSr.My.Resources.Resources.button_ok
         Me.BTNCONF.Location = New System.Drawing.Point(928, 450)
         Me.BTNCONF.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.BTNCONF.Name = "BTNCONF"

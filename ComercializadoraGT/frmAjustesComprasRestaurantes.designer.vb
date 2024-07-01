@@ -472,7 +472,7 @@ Partial Class frmAjustesComprasRestaurantes
         '
         Me.BTNBUSCAR.BackColor = System.Drawing.Color.Black
         Me.BTNBUSCAR.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BTNBUSCAR.Image = Global.ComercializadoraGT.My.Resources.Resources.xeyes1
+        Me.BTNBUSCAR.Image = Global.ComercializadoraGTFernandoSr.My.Resources.Resources.xeyes1
         Me.BTNBUSCAR.Location = New System.Drawing.Point(814, 2)
         Me.BTNBUSCAR.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.BTNBUSCAR.Name = "BTNBUSCAR"

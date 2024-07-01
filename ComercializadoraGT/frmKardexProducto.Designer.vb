@@ -61,7 +61,7 @@ Partial Class frmKardexProducto
         'BTNMOSTRAR
         '
         Me.BTNMOSTRAR.ForeColor = System.Drawing.Color.Transparent
-        Me.BTNMOSTRAR.Image = Global.ComercializadoraGT.My.Resources.Resources.xeyes1
+        Me.BTNMOSTRAR.Image = Global.ComercializadoraGTFernandoSr.My.Resources.Resources.xeyes1
         Me.BTNMOSTRAR.Location = New System.Drawing.Point(924, 31)
         Me.BTNMOSTRAR.Name = "BTNMOSTRAR"
         Me.BTNMOSTRAR.Size = New System.Drawing.Size(80, 80)
@@ -144,7 +144,7 @@ Partial Class frmKardexProducto
         '
         Me.Button1.BackColor = System.Drawing.SystemColors.Control
         Me.Button1.ForeColor = System.Drawing.Color.Transparent
-        Me.Button1.Image = Global.ComercializadoraGT.My.Resources.Resources.xeyes1
+        Me.Button1.Image = Global.ComercializadoraGTFernandoSr.My.Resources.Resources.xeyes1
         Me.Button1.Location = New System.Drawing.Point(12, 62)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(78, 49)

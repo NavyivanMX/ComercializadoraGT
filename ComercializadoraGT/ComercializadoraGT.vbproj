@@ -7,9 +7,9 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{768D56BB-DEC5-4A11-AD5A-7C236B468139}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>ComercializadoraGT.My.MyApplication</StartupObject>
-    <RootNamespace>ComercializadoraGT</RootNamespace>
-    <AssemblyName>ComercializadoraGT</AssemblyName>
+    <StartupObject>ComercializadoraGTFernandoSr.My.MyApplication</StartupObject>
+    <RootNamespace>ComercializadoraGTFernandoSr</RootNamespace>
+    <AssemblyName>ComercializadoraGTFernandoSr</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
@@ -47,7 +47,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>ComercializadoraGT.xml</DocumentationFile>
+    <DocumentationFile>ComercializadoraGTFernandoSr.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -56,7 +56,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>ComercializadoraGT.xml</DocumentationFile>
+    <DocumentationFile>ComercializadoraGTFernandoSr.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
   </PropertyGroup>
   <ItemGroup>
@@ -197,6 +197,12 @@
       <DependentUpon>frmBancos.vb</DependentUpon>
     </Compile>
     <Compile Include="frmBancos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBonificacionSVenta.Designer.vb">
+      <DependentUpon>frmBonificacionSVenta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmBonificacionSVenta.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmBorraPedido.designer.vb">
@@ -463,6 +469,12 @@
     <Compile Include="frmDetalleDeNotasCobranza.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmDevolucionSVenta.Designer.vb">
+      <DependentUpon>frmDevolucionSVenta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDevolucionSVenta.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmEmpleados.designer.vb">
       <DependentUpon>frmEmpleados.vb</DependentUpon>
     </Compile>
@@ -665,6 +677,12 @@
       <DependentUpon>frmNotaDeVentaTactil.vb</DependentUpon>
     </Compile>
     <Compile Include="frmNotaDeVentaTactil.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOpcionesNotaCredito.Designer.vb">
+      <DependentUpon>frmOpcionesNotaCredito.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmOpcionesNotaCredito.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmPagoMixto.designer.vb">
@@ -1254,6 +1272,12 @@
       <DependentUpon>rptGasotCajaChica.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="rptNotaCreditoPro.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptNotaCreditoPro.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="rptNotaDeVenta.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -1503,6 +1527,9 @@
       <DependentUpon>frmBancos.vb</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmBonificacionSVenta.resx">
+      <DependentUpon>frmBonificacionSVenta.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmBorraPedido.resx">
       <DependentUpon>frmBorraPedido.vb</DependentUpon>
       <SubType>Designer</SubType>
@@ -1675,6 +1702,9 @@
       <DependentUpon>frmDetalleDeNotasCobranza.vb</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmDevolucionSVenta.resx">
+      <DependentUpon>frmDevolucionSVenta.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmEmpleados.resx">
       <DependentUpon>frmEmpleados.vb</DependentUpon>
       <SubType>Designer</SubType>
@@ -1811,6 +1841,9 @@
     <EmbeddedResource Include="frmNotaDeVentaTactil.resx">
       <DependentUpon>frmNotaDeVentaTactil.vb</DependentUpon>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOpcionesNotaCredito.resx">
+      <DependentUpon>frmOpcionesNotaCredito.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmPagoMixto.resx">
       <DependentUpon>frmPagoMixto.vb</DependentUpon>
@@ -2191,6 +2224,10 @@
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>rptGasotCajaChica.vb</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="rptNotaCreditoPro.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptNotaCreditoPro.vb</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="rptNotaDeVenta.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>rptNotaDeVenta.vb</LastGenOutput>
@@ -2484,25 +2521,25 @@
       <Generator>MSDiscoCodeGenerator</Generator>
       <LastGenOutput>Reference.vb</LastGenOutput>
     </None>
-    <None Include="Web References\WSNavy\RespuestaActivarCliente.datasource">
+    <None Include="Web References\WSNavy\RespuestaActivarCliente1.datasource">
       <DependentUpon>Reference.map</DependentUpon>
     </None>
-    <None Include="Web References\WSNavy\RespuestaAgregarCliente.datasource">
+    <None Include="Web References\WSNavy\RespuestaAgregarCliente1.datasource">
       <DependentUpon>Reference.map</DependentUpon>
     </None>
-    <None Include="Web References\WSNavy\RespuestaCancelacion.datasource">
+    <None Include="Web References\WSNavy\RespuestaCancelacion1.datasource">
       <DependentUpon>Reference.map</DependentUpon>
     </None>
-    <None Include="Web References\WSNavy\RespuestaConsumo.datasource">
+    <None Include="Web References\WSNavy\RespuestaConsumo1.datasource">
       <DependentUpon>Reference.map</DependentUpon>
     </None>
-    <None Include="Web References\WSNavy\RespuestaDescargarArchivo.datasource">
+    <None Include="Web References\WSNavy\RespuestaDescargarArchivo1.datasource">
       <DependentUpon>Reference.map</DependentUpon>
     </None>
-    <None Include="Web References\WSNavy\RespuestaEstatusComprobante.datasource">
+    <None Include="Web References\WSNavy\RespuestaEstatusComprobante1.datasource">
       <DependentUpon>Reference.map</DependentUpon>
     </None>
-    <None Include="Web References\WSNavy\RespuestaTimbrado.datasource">
+    <None Include="Web References\WSNavy\RespuestaTimbrado1.datasource">
       <DependentUpon>Reference.map</DependentUpon>
     </None>
     <None Include="Web References\WSNavy\timbrarxml.wsdl" />
