@@ -230,9 +230,9 @@ Namespace My
     Friend Module MySettingsProperty
         
         <Global.System.ComponentModel.Design.HelpKeywordAttribute("My.Settings")>  _
-        Friend ReadOnly Property Settings() As Global.ComercializadoraGTFernandoSr.My.MySettings
+        Friend ReadOnly Property Settings() As Global.ComercializadoraGT.My.MySettings
             Get
-                Return Global.ComercializadoraGTFernandoSr.My.MySettings.Default
+                Return Global.ComercializadoraGT.My.MySettings.Default
             End Get
         End Property
     End Module

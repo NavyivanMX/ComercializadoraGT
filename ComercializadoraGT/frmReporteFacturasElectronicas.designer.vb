@@ -120,7 +120,7 @@ Partial Class frmReporteFacturasElectronicas
         Me.BTNMAIL.BackColor = System.Drawing.SystemColors.Control
         Me.BTNMAIL.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BTNMAIL.ForeColor = System.Drawing.Color.White
-        Me.BTNMAIL.Image = Global.ComercializadoraGTFernandoSr.My.Resources.Resources.EMAIL
+        Me.BTNMAIL.Image = Global.ComercializadoraGT.My.Resources.Resources.EMAIL
         Me.BTNMAIL.Location = New System.Drawing.Point(1171, 19)
         Me.BTNMAIL.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.BTNMAIL.Name = "BTNMAIL"
@@ -133,7 +133,7 @@ Partial Class frmReporteFacturasElectronicas
         Me.Button1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Button1.BackColor = System.Drawing.Color.Black
         Me.Button1.ForeColor = System.Drawing.Color.Black
-        Me.Button1.Image = Global.ComercializadoraGTFernandoSr.My.Resources.Resources.xeyes1
+        Me.Button1.Image = Global.ComercializadoraGT.My.Resources.Resources.xeyes1
         Me.Button1.Location = New System.Drawing.Point(803, 19)
         Me.Button1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Button1.Name = "Button1"
@@ -209,7 +209,7 @@ Partial Class frmReporteFacturasElectronicas
         Me.BTNELIMINAR.BackColor = System.Drawing.SystemColors.Control
         Me.BTNELIMINAR.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BTNELIMINAR.ForeColor = System.Drawing.Color.White
-        Me.BTNELIMINAR.Image = Global.ComercializadoraGTFernandoSr.My.Resources.Resources.button_cancel
+        Me.BTNELIMINAR.Image = Global.ComercializadoraGT.My.Resources.Resources.button_cancel
         Me.BTNELIMINAR.Location = New System.Drawing.Point(1294, 19)
         Me.BTNELIMINAR.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.BTNELIMINAR.Name = "BTNELIMINAR"
@@ -282,7 +282,7 @@ Partial Class frmReporteFacturasElectronicas
         Me.BTNINFO.BackColor = System.Drawing.SystemColors.Control
         Me.BTNINFO.Font = New System.Drawing.Font("Microsoft Sans Serif", 1.5!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BTNINFO.ForeColor = System.Drawing.Color.Transparent
-        Me.BTNINFO.Image = Global.ComercializadoraGTFernandoSr.My.Resources.Resources.btninformacion32
+        Me.BTNINFO.Image = Global.ComercializadoraGT.My.Resources.Resources.btninformacion32
         Me.BTNINFO.Location = New System.Drawing.Point(695, 18)
         Me.BTNINFO.Margin = New System.Windows.Forms.Padding(4, 6, 4, 6)
         Me.BTNINFO.Name = "BTNINFO"

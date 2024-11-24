@@ -142,7 +142,7 @@ Partial Class frmConversorHuevos
         Me.BTNVTA.BackColor = System.Drawing.Color.White
         Me.BTNVTA.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BTNVTA.ForeColor = System.Drawing.Color.Black
-        Me.BTNVTA.Image = Global.ComercializadoraGTFernandoSr.My.Resources.Resources.PVAOk32
+        Me.BTNVTA.Image = Global.ComercializadoraGT.My.Resources.Resources.PVAOk32
         Me.BTNVTA.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.BTNVTA.Location = New System.Drawing.Point(919, 13)
         Me.BTNVTA.Margin = New System.Windows.Forms.Padding(4)

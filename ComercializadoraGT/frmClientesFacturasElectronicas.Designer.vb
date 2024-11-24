@@ -111,7 +111,7 @@ Partial Class frmClientesFacturasElectronicas
         'BTNCORREO
         '
         Me.BTNCORREO.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BTNCORREO.Image = Global.ComercializadoraGTFernandoSr.My.Resources.Resources.EMAIL
+        Me.BTNCORREO.Image = Global.ComercializadoraGT.My.Resources.Resources.EMAIL
         Me.BTNCORREO.Location = New System.Drawing.Point(972, 16)
         Me.BTNCORREO.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.BTNCORREO.Name = "BTNCORREO"

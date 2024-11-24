@@ -45,7 +45,7 @@ Public Class rptVentasTarjeta
     
     Public Overrides Property FullResourceName() As String
         Get
-            Return "ComercializadoraGTFernandoSr.rptVentasTarjeta.rpt"
+            Return "ComercializadoraGT.rptVentasTarjeta.rpt"
         End Get
         Set
             'Do nothing

@@ -51,7 +51,7 @@ Partial Class frmLlamaCedis
         '
         'BTNACEPTAR
         '
-        Me.BTNACEPTAR.Image = Global.ComercializadoraGTFernandoSr.My.Resources.Resources.button_ok
+        Me.BTNACEPTAR.Image = Global.ComercializadoraGT.My.Resources.Resources.button_ok
         Me.BTNACEPTAR.Location = New System.Drawing.Point(333, 289)
         Me.BTNACEPTAR.Name = "BTNACEPTAR"
         Me.BTNACEPTAR.Size = New System.Drawing.Size(123, 112)

@@ -326,7 +326,7 @@ Partial Class frmFacturaDelDia
         '
         Me.Button1.BackColor = System.Drawing.Color.Black
         Me.Button1.ForeColor = System.Drawing.Color.Black
-        Me.Button1.Image = Global.ComercializadoraGTFernandoSr.My.Resources.Resources.xeyes1
+        Me.Button1.Image = Global.ComercializadoraGT.My.Resources.Resources.xeyes1
         Me.Button1.Location = New System.Drawing.Point(632, 12)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(80, 80)
@@ -446,7 +446,7 @@ Partial Class frmFacturaDelDia
         Me.Button2.BackColor = System.Drawing.Color.White
         Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.ForeColor = System.Drawing.Color.White
-        Me.Button2.Image = Global.ComercializadoraGTFernandoSr.My.Resources.Resources.Startup_Wizard
+        Me.Button2.Image = Global.ComercializadoraGT.My.Resources.Resources.Startup_Wizard
         Me.Button2.Location = New System.Drawing.Point(747, 12)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(80, 80)

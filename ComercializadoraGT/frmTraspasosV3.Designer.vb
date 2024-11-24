@@ -206,7 +206,7 @@ Partial Class frmTraspasosV3
         '
         Me.BTNMOSTRAR.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.BTNMOSTRAR.ForeColor = System.Drawing.Color.Black
-        Me.BTNMOSTRAR.Image = Global.ComercializadoraGTFernandoSr.My.Resources.Resources.Buscar_reporte
+        Me.BTNMOSTRAR.Image = Global.ComercializadoraGT.My.Resources.Resources.Buscar_reporte
         Me.BTNMOSTRAR.Location = New System.Drawing.Point(1239, 41)
         Me.BTNMOSTRAR.Margin = New System.Windows.Forms.Padding(4)
         Me.BTNMOSTRAR.Name = "BTNMOSTRAR"

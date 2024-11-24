@@ -44,7 +44,7 @@ Partial Class frmInfo
         'PictureBox1
         '
         Me.PictureBox1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.PictureBox1.Image = Global.ComercializadoraGTFernandoSr.My.Resources.Resources.btninformacion32
+        Me.PictureBox1.Image = Global.ComercializadoraGT.My.Resources.Resources.btninformacion32
         Me.PictureBox1.Location = New System.Drawing.Point(603, 20)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(32, 32)

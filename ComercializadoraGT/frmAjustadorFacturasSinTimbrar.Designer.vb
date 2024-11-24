@@ -159,7 +159,7 @@ Partial Class frmAjustadorFacturasSinTimbrar
         Me.BTNMAIL.BackColor = System.Drawing.SystemColors.Control
         Me.BTNMAIL.Font = New System.Drawing.Font("Microsoft Sans Serif", 1.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BTNMAIL.ForeColor = System.Drawing.Color.Transparent
-        Me.BTNMAIL.Image = Global.ComercializadoraGTFernandoSr.My.Resources.Resources.EMAIL
+        Me.BTNMAIL.Image = Global.ComercializadoraGT.My.Resources.Resources.EMAIL
         Me.BTNMAIL.Location = New System.Drawing.Point(912, 124)
         Me.BTNMAIL.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.BTNMAIL.Name = "BTNMAIL"
@@ -666,7 +666,7 @@ Partial Class frmAjustadorFacturasSinTimbrar
         '
         Me.Button1.BackColor = System.Drawing.SystemColors.Control
         Me.Button1.ForeColor = System.Drawing.Color.Black
-        Me.Button1.Image = Global.ComercializadoraGTFernandoSr.My.Resources.Resources.xeyes1
+        Me.Button1.Image = Global.ComercializadoraGT.My.Resources.Resources.xeyes1
         Me.Button1.Location = New System.Drawing.Point(874, 10)
         Me.Button1.Margin = New System.Windows.Forms.Padding(4)
         Me.Button1.Name = "Button1"

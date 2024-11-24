@@ -45,7 +45,7 @@ Public Class rptEti2
     
     Public Overrides Property FullResourceName() As String
         Get
-            Return "ComercializadoraGTFernandoSr.rptEti2.rpt"
+            Return "ComercializadoraGT.rptEti2.rpt"
         End Get
         Set
             'Do nothing

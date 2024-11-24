@@ -39,7 +39,7 @@ Namespace My.Resources
         Friend ReadOnly Property ResourceManager() As Global.System.Resources.ResourceManager
             Get
                 If Object.ReferenceEquals(resourceMan, Nothing) Then
-                    Dim temp As Global.System.Resources.ResourceManager = New Global.System.Resources.ResourceManager("ComercializadoraGTFernandoSr.Resources", GetType(Resources).Assembly)
+                    Dim temp As Global.System.Resources.ResourceManager = New Global.System.Resources.ResourceManager("ComercializadoraGT.Resources", GetType(Resources).Assembly)
                     resourceMan = temp
                 End If
                 Return resourceMan
@@ -156,6 +156,16 @@ Namespace My.Resources
         Friend ReadOnly Property comercializadora_GZ() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("comercializadora GZ", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property ComercializadoraGT() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("ComercializadoraGT", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property

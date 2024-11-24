@@ -45,7 +45,7 @@ Public Class rptCicloInvPisoTIendaA4
     
     Public Overrides Property FullResourceName() As String
         Get
-            Return "ComercializadoraGTFernandoSr.rptCicloInvPisoTIendaA4.rpt"
+            Return "ComercializadoraGT.rptCicloInvPisoTIendaA4.rpt"
         End Get
         Set
             'Do nothing

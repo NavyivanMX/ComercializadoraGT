@@ -153,7 +153,7 @@ Partial Class frmOpcionesNotaCredito
         '
         'BTNACEPTAR
         '
-        Me.BTNACEPTAR.Image = Global.ComercializadoraGTFernandoSr.My.Resources.Resources.button_ok
+        Me.BTNACEPTAR.Image = Global.ComercializadoraGT.My.Resources.Resources.button_ok
         Me.BTNACEPTAR.Location = New System.Drawing.Point(384, 311)
         Me.BTNACEPTAR.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.BTNACEPTAR.Name = "BTNACEPTAR"

@@ -124,14 +124,14 @@
   <data name="CompraChico" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\CompraChico.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="PVALogin32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\PVALogin32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="7341129_e-commerce_online_shopping_ui_receipt_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\7341129_e-commerce_online_shopping_ui_receipt_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="clean" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\clean.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PVACobrar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PVACobrar.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="iconfinder_shopify_4961990" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\iconfinder_shopify_4961990.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -154,6 +154,9 @@
   <data name="folder_yellow" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\folder_yellow.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="PVAQuitar32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PVAQuitar32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Startup Wizard" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Startup Wizard.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -169,11 +172,17 @@
   <data name="M013" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\M013.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="StructureSmall" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StructureSmall.JPG;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="traspaso_icono" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\traspaso_icono.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="xeyes3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\xeyes3.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="button_cancel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button_cancel.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PVAOk32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PVAOk32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="button_ok" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\button_ok.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -190,14 +199,8 @@
   <data name="PVAImprimir32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PVAImprimir32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="folder_red" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\folder_red.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="folder_blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\folder_blue.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="FondoSIsG" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\FondoSIsG.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="xeyes1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\xeyes1.PNG;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -211,23 +214,23 @@
   <data name="EMAIL" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\EMAIL.PNG;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="PVANuevo32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\PVANuevo32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="btninformacion32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\btninformacion32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ACTUALIZAR" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ACTUALIZAR.JPG;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="PVALogin32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PVALogin32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="PVACobrar" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\PVACobrar.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="PVAVer32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PVAVer32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="mylinspire" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\mylinspire.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="FondoSIsG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FondoSIsG.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="reload" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\reload.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PAGODABN1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PAGODABN1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="folder_rose" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\folder_rose.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -241,11 +244,14 @@
   <data name="Folder 2 - copia" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Folder 2 - copia.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="PAGODABN2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\PAGODABN2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Buscar reporte" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Buscar reporte.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="tarjetas-de-presentacion-NAVY-13" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\tarjetas-de-presentacion-NAVY-13.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FondoForms" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FondoForms.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="file-manager - copia" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\file-manager - copia.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -253,8 +259,8 @@
   <data name="icon_client" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon_client.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="tarjetas-de-presentacion-NAVY-14" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\tarjetas-de-presentacion-NAVY-14.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="mylinspire" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mylinspire.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="xeyes" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\xeyes.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -265,17 +271,17 @@
   <data name="demo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\demo.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Buscar reporte" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Buscar reporte.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="PAGODABN2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PAGODABN2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="button_cancel" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\button_cancel.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="PVANuevo32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PVANuevo32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="editcut" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\editcut.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="PVAVer32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\PVAVer32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="folder_red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\folder_red.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="edit_remove" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\edit_remove.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -286,25 +292,22 @@
   <data name="FONDOPM" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\FONDOPM.JPG;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="PAGODABN1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\PAGODABN1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="tarjetas-de-presentacion-NAVY-14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tarjetas-de-presentacion-NAVY-14.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="FondoForms" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\FondoForms.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ACTUALIZAR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ACTUALIZAR.JPG;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="xeyes3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\xeyes3.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="calc" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\calc.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="StructureSmall" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StructureSmall.JPG;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="ETIPM" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ETIPM.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="PVAQuitar32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\PVAQuitar32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="PVAOk32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\PVAOk32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ComercializadoraGT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ComercializadoraGT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -119,7 +119,7 @@ Partial Class frmDevolucionSVenta
         '
         Me.BTNMOSTRAR.BackColor = System.Drawing.SystemColors.Control
         Me.BTNMOSTRAR.ForeColor = System.Drawing.Color.Black
-        Me.BTNMOSTRAR.Image = Global.ComercializadoraGTFernandoSr.My.Resources.Resources.xeyes1
+        Me.BTNMOSTRAR.Image = Global.ComercializadoraGT.My.Resources.Resources.xeyes1
         Me.BTNMOSTRAR.Location = New System.Drawing.Point(644, 18)
         Me.BTNMOSTRAR.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.BTNMOSTRAR.Name = "BTNMOSTRAR"
@@ -132,7 +132,7 @@ Partial Class frmDevolucionSVenta
         Me.BTNGUARDAR.BackColor = System.Drawing.SystemColors.Control
         Me.BTNGUARDAR.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BTNGUARDAR.ForeColor = System.Drawing.Color.White
-        Me.BTNGUARDAR.Image = Global.ComercializadoraGTFernandoSr.My.Resources.Resources.file_manager___copia
+        Me.BTNGUARDAR.Image = Global.ComercializadoraGT.My.Resources.Resources.file_manager___copia
         Me.BTNGUARDAR.Location = New System.Drawing.Point(911, 18)
         Me.BTNGUARDAR.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.BTNGUARDAR.Name = "BTNGUARDAR"
@@ -144,7 +144,7 @@ Partial Class frmDevolucionSVenta
         '
         Me.BTNCANCELAR.BackColor = System.Drawing.SystemColors.Control
         Me.BTNCANCELAR.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BTNCANCELAR.Image = Global.ComercializadoraGTFernandoSr.My.Resources.Resources.editdelete
+        Me.BTNCANCELAR.Image = Global.ComercializadoraGT.My.Resources.Resources.editdelete
         Me.BTNCANCELAR.Location = New System.Drawing.Point(781, 18)
         Me.BTNCANCELAR.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.BTNCANCELAR.Name = "BTNCANCELAR"

@@ -66,7 +66,7 @@ Namespace WSNavy
         '''<remarks/>
         Public Sub New()
             MyBase.New
-            Me.Url = Global.ComercializadoraGTFernandoSr.My.MySettings.Default.PriceMarket_WSNavy_TimbrarXML
+            Me.Url = Global.ComercializadoraGT.My.MySettings.Default.PriceMarket_WSNavy_TimbrarXML
             If (Me.IsLocalFileSystemWebService(Me.Url) = true) Then
                 Me.UseDefaultCredentials = true
                 Me.useDefaultCredentialsSetExplicitly = false

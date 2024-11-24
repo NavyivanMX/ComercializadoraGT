@@ -108,7 +108,7 @@ Partial Class frmReporteTraspasos
         Me.Button1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Button1.BackColor = System.Drawing.Color.Black
         Me.Button1.ForeColor = System.Drawing.Color.Black
-        Me.Button1.Image = Global.ComercializadoraGTFernandoSr.My.Resources.Resources.xeyes1
+        Me.Button1.Image = Global.ComercializadoraGT.My.Resources.Resources.xeyes1
         Me.Button1.Location = New System.Drawing.Point(609, 13)
         Me.Button1.Margin = New System.Windows.Forms.Padding(4)
         Me.Button1.Name = "Button1"
@@ -136,7 +136,7 @@ Partial Class frmReporteTraspasos
         Me.BTNCP.BackColor = System.Drawing.SystemColors.Control
         Me.BTNCP.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BTNCP.ForeColor = System.Drawing.Color.White
-        Me.BTNCP.Image = Global.ComercializadoraGTFernandoSr.My.Resources.Resources.Startup_Wizard
+        Me.BTNCP.Image = Global.ComercializadoraGT.My.Resources.Resources.Startup_Wizard
         Me.BTNCP.Location = New System.Drawing.Point(883, 13)
         Me.BTNCP.Margin = New System.Windows.Forms.Padding(4)
         Me.BTNCP.Name = "BTNCP"

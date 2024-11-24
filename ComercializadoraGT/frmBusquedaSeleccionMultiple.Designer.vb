@@ -115,7 +115,7 @@ Partial Class frmBusquedaSeleccionMultiple
         'BTNACEPTAR
         '
         Me.BTNACEPTAR.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.BTNACEPTAR.Image = Global.ComercializadoraGTFernandoSr.My.Resources.Resources.button_ok
+        Me.BTNACEPTAR.Image = Global.ComercializadoraGT.My.Resources.Resources.button_ok
         Me.BTNACEPTAR.Location = New System.Drawing.Point(1071, 665)
         Me.BTNACEPTAR.Margin = New System.Windows.Forms.Padding(4)
         Me.BTNACEPTAR.Name = "BTNACEPTAR"

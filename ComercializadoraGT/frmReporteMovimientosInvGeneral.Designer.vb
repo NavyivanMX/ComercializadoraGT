@@ -114,7 +114,7 @@ Partial Class frmReporteMovimientosInvGeneral
         '
         Me.BTNMOSTRAR.BackColor = System.Drawing.Color.White
         Me.BTNMOSTRAR.ForeColor = System.Drawing.Color.Transparent
-        Me.BTNMOSTRAR.Image = Global.ComercializadoraGTFernandoSr.My.Resources.Resources.xeyes3
+        Me.BTNMOSTRAR.Image = Global.ComercializadoraGT.My.Resources.Resources.xeyes3
         Me.BTNMOSTRAR.Location = New System.Drawing.Point(860, 14)
         Me.BTNMOSTRAR.Name = "BTNMOSTRAR"
         Me.BTNMOSTRAR.Size = New System.Drawing.Size(108, 104)

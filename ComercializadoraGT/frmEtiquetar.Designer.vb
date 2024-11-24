@@ -806,7 +806,7 @@ Partial Class frmEtiquetar
         '
         'PBCB
         '
-        Me.PBCB.Image = Global.ComercializadoraGTFernandoSr.My.Resources.Resources.ETIPM1
+        Me.PBCB.Image = Global.ComercializadoraGT.My.Resources.Resources.ETIPM1
         Me.PBCB.Location = New System.Drawing.Point(715, 94)
         Me.PBCB.Name = "PBCB"
         Me.PBCB.Size = New System.Drawing.Size(30, 158)
@@ -816,7 +816,7 @@ Partial Class frmEtiquetar
         '
         'PBIMG
         '
-        Me.PBIMG.Image = Global.ComercializadoraGTFernandoSr.My.Resources.Resources.PAGODABN2
+        Me.PBIMG.Image = Global.ComercializadoraGT.My.Resources.Resources.PAGODABN2
         Me.PBIMG.Location = New System.Drawing.Point(652, 227)
         Me.PBIMG.Name = "PBIMG"
         Me.PBIMG.Size = New System.Drawing.Size(41, 30)

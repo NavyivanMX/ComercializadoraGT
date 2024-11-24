@@ -50,7 +50,7 @@ Partial Class frmMsg
         'BTNYES
         '
         Me.BTNYES.DialogResult = System.Windows.Forms.DialogResult.Yes
-        Me.BTNYES.Image = Global.ComercializadoraGTFernandoSr.My.Resources.Resources.button_ok
+        Me.BTNYES.Image = Global.ComercializadoraGT.My.Resources.Resources.button_ok
         Me.BTNYES.Location = New System.Drawing.Point(112, 283)
         Me.BTNYES.Name = "BTNYES"
         Me.BTNYES.Size = New System.Drawing.Size(153, 139)
@@ -61,7 +61,7 @@ Partial Class frmMsg
         'BTNNO
         '
         Me.BTNNO.DialogResult = System.Windows.Forms.DialogResult.No
-        Me.BTNNO.Image = Global.ComercializadoraGTFernandoSr.My.Resources.Resources.button_cancel
+        Me.BTNNO.Image = Global.ComercializadoraGT.My.Resources.Resources.button_cancel
         Me.BTNNO.Location = New System.Drawing.Point(384, 283)
         Me.BTNNO.Name = "BTNNO"
         Me.BTNNO.Size = New System.Drawing.Size(153, 139)

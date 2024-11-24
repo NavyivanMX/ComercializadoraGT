@@ -145,7 +145,7 @@ Partial Class frmAjustarInventario
         Me.BTN2.BackColor = System.Drawing.Color.Transparent
         Me.BTN2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BTN2.ForeColor = System.Drawing.Color.White
-        Me.BTN2.Image = Global.ComercializadoraGTFernandoSr.My.Resources.Resources.Buscar_reporte
+        Me.BTN2.Image = Global.ComercializadoraGT.My.Resources.Resources.Buscar_reporte
         Me.BTN2.Location = New System.Drawing.Point(88, 12)
         Me.BTN2.Name = "BTN2"
         Me.BTN2.Size = New System.Drawing.Size(80, 80)

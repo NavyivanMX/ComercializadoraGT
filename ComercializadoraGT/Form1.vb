@@ -55,18 +55,20 @@ Public Class frmPrincipal
         FacturaLibre = True
         Resguardo = False
         VentaSinResguardo = 0
-        EmisorBase = "GARF740304SN8"
+        'EmisorBase = "GARF740304SN8"
+        EmisorBase = "GATF9701109J2"
+
         Regimen = "Persona Física con Actividades Empresariales y Profesionales"
         'IP = "201.120.24.238"
         'IP = "187.141.151.178"
-        IP = "soluserver.ddns.net"
-        'IPFE = "187.141.151.178"
-        IPFE = "soluserver.ddns.net"
+        IP = "navyserver.ddns.net"
+        'IPFE = "187.134.53.95"
+        IPFE = "navyserver.ddns.net"
         'If PRUEBAPING("BAHAMUT", "Ip Local", False) Then
         '    IP = "192.168.2.75"
         '    IPFE = "192.168.2.75"
         'End If
-        Sistema = "Comercializadora GT Fernando Sr"
+        Sistema = "Comercializadora GT"
         'PBCNC.Image = ComercializadoraGT.My.Resources.Resources.price_market_buda
         IVA = 0.16
         SB.Items(0).Text = Ciudad + " Hoy es " + FormatDateTime(Now, DateFormat.LongDate) + " "
@@ -718,7 +720,7 @@ Public Class frmPrincipal
     End Function
     Private Sub ADMINISTRADOR(ByVal V As Boolean)
         Serie = LASERIE()
-        Me.Text = "Comercializadora GT Fernando SR.- Sistema Punto de Venta: " + NombreComun
+        Me.Text = "Comercializadora GT.- Sistema Punto de Venta: " + NombreComun
         SB.Items(0).Text = Me.Ciudad + " Hoy es " + FormatDateTime(Now, DateFormat.LongDate) + " "
         'PBC.Enabled = V
         ''PBF.Enabled = V

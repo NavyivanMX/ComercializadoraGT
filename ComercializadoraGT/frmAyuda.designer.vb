@@ -40,7 +40,7 @@ Partial Class frmAyuda
         '
         'PictureBox2
         '
-        Me.PictureBox2.Image = Global.ComercializadoraGTFernandoSr.My.Resources.Resources.tarjetas_de_presentacion_NAVY_13
+        Me.PictureBox2.Image = Global.ComercializadoraGT.My.Resources.Resources.tarjetas_de_presentacion_NAVY_13
         Me.PictureBox2.Location = New System.Drawing.Point(275, 86)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(351, 108)
@@ -50,7 +50,7 @@ Partial Class frmAyuda
         '
         'PictureBox1
         '
-        Me.PictureBox1.Image = Global.ComercializadoraGTFernandoSr.My.Resources.Resources.tarjetas_de_presentacion_NAVY_14
+        Me.PictureBox1.Image = Global.ComercializadoraGT.My.Resources.Resources.tarjetas_de_presentacion_NAVY_14
         Me.PictureBox1.Location = New System.Drawing.Point(159, 213)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(574, 326)
